@@ -68,8 +68,22 @@ z-index: 100;}
 
 
 /*  whatsapp*/
-       
-    
+       .linkp{
+        color: #cb4a2c;
+        font-size: 20px;
+       text-decoration: underline;
+       }
+       .gallery-img {
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      border-radius: 10px;
+    }
+    .gallery-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .gallery-container {
+      padding: 40px 0;
+    }
     </style>
 </head>
 
@@ -97,12 +111,11 @@ z-index: 100;}
                 <div class="navbar-nav mx-auto">
                     <a href="index.html" class="nav-item nav-link active">الرئسية</a>
                     <a href="about.html" class="nav-item nav-link">نبذة عنا </a>
-                    <a href="classes.html" class="nav-item nav-link">فصول</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">خدمات</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">فصول وبرامج</a>
                         <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
                             <a href="classes.html" class="dropdown-item"> فصل المنتسوري </a>
-                            <a href="team.html" class="dropdown-item">Popular Teachers</a>
+                            <a href="team.html" class="dropdown-item">ركن الحياة العملية</a>
                             <a href="call-to-action.html" class="dropdown-item">Become A Teachers</a>
                             <a href="appointment.html" class="dropdown-item">Make Appointment</a>
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
@@ -378,7 +391,7 @@ z-index: 100;}
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">فصول وخدمات المدرسة</h1>
+                    <h1 class="mb-3">فصول وبرامج المدرسة</h1>
                     <p>Eirmod  ipsum </p>
                 </div>
                 <div class="row g-4" dir="rtl">
@@ -389,7 +402,7 @@ z-index: 100;}
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
                                 <a class="d-block text-center h3 mt-3 mb-4" target="_blank" href="facility.html">فصل المنتسوري</a>
-                                <a class="d-block text-center h3 mt-3 mb-4" target="_blank" href="facility.html"> عرض المزيد </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" target="_blank" href="facility.html"> عرض المزيد </a>
                                
                                
                             </div>
@@ -403,7 +416,7 @@ z-index: 100;}
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
                                 <a class="d-block text-center h3 mt-3 mb-4" href="">ركن الحياة العملية</a>
-                                <a class="d-block text-center h3 mt-3 mb-4" href=""> عرض المزيد </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp"  href=""> عرض المزيد </a>
     
                             </div>
                         </div>
@@ -411,178 +424,243 @@ z-index: 100;}
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="classes-item">
                             <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                                <img class="img-fluid rounded-circle" src="img/classes-3.jpg" alt="">
+                                <img class="img-fluid rounded-circle" src="img2/skils/1.jpg" alt="">
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
-                                <a class="d-block text-center h3 mt-3 mb-4" href="">Athletic & Dance</a>
-                                <div class="d-flex align-items-center justify-content-between mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
-                                        <div class="ms-3">
-                                            <h6 class="text-primary mb-1">Jhon Doe</h6>
-                                            <small>Teacher</small>
-                                        </div>
-                                    </div>
-                                    <span class="bg-primary text-white rounded-pill py-2 px-3" href="">$99</span>
-                                </div>
-                                <div class="row g-1">
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-primary pt-2">
-                                            <h6 class="text-primary mb-1">Age:</h6>
-                                            <small>3-5 Years</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-success pt-2">
-                                            <h6 class="text-success mb-1">Time:</h6>
-                                            <small>9-10 AM</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-warning pt-2">
-                                            <h6 class="text-warning mb-1">Capacity:</h6>
-                                            <small>30 Kids</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">المهارات الحياتية</a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                           
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="classes-item">
                             <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                                <img class="img-fluid rounded-circle" src="img/classes-4.jpg" alt="">
+                                <img class="img-fluid rounded-circle" src="img2/3loom/1.jpg" alt="">
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
-                                <a class="d-block text-center h3 mt-3 mb-4" href="">Language & Speaking</a>
-                                <div class="d-flex align-items-center justify-content-between mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
-                                        <div class="ms-3">
-                                            <h6 class="text-primary mb-1">Jhon Doe</h6>
-                                            <small>Teacher</small>
-                                        </div>
-                                    </div>
-                                    <span class="bg-primary text-white rounded-pill py-2 px-3" href="">$99</span>
-                                </div>
-                                <div class="row g-1">
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-primary pt-2">
-                                            <h6 class="text-primary mb-1">Age:</h6>
-                                            <small>3-5 Years</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-success pt-2">
-                                            <h6 class="text-success mb-1">Time:</h6>
-                                            <small>9-10 AM</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-warning pt-2">
-                                            <h6 class="text-warning mb-1">Capacity:</h6>
-                                            <small>30 Kids</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">ركن العلوم والثقافة</a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="classes-item">
                             <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                                <img class="img-fluid rounded-circle" src="img/classes-5.jpg" alt="">
+                                <img class="img-fluid rounded-circle" src="img2/languge/1.jpg" alt="">
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
-                                <a class="d-block text-center h3 mt-3 mb-4" href="">Religion & History</a>
-                                <div class="d-flex align-items-center justify-content-between mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
-                                        <div class="ms-3">
-                                            <h6 class="text-primary mb-1">Jhon Doe</h6>
-                                            <small>Teacher</small>
-                                        </div>
-                                    </div>
-                                    <span class="bg-primary text-white rounded-pill py-2 px-3" href="">$99</span>
-                                </div>
-                                <div class="row g-1">
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-primary pt-2">
-                                            <h6 class="text-primary mb-1">Age:</h6>
-                                            <small>3-5 Years</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-success pt-2">
-                                            <h6 class="text-success mb-1">Time:</h6>
-                                            <small>9-10 AM</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-warning pt-2">
-                                            <h6 class="text-warning mb-1">Capacity:</h6>
-                                            <small>30 Kids</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">ركن اللغة</a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="classes-item">
                             <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                                <img class="img-fluid rounded-circle" src="img/classes-6.jpg" alt="">
+                                <img class="img-fluid rounded-circle" src="img2/math/1.jpg" alt="">
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
-                                <a class="d-block text-center h3 mt-3 mb-4" href="">General Knowledge</a>
-                                <div class="d-flex align-items-center justify-content-between mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
-                                        <div class="ms-3">
-                                            <h6 class="text-primary mb-1">Jhon Doe</h6>
-                                            <small>Teacher</small>
-                                        </div>
-                                    </div>
-                                    <span class="bg-primary text-white rounded-pill py-2 px-3" href="">$99</span>
-                                </div>
-                                <div class="row g-1">
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-primary pt-2">
-                                            <h6 class="text-primary mb-1">Age:</h6>
-                                            <small>3-5 Years</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-success pt-2">
-                                            <h6 class="text-success mb-1">Time:</h6>
-                                            <small>9-10 AM</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="border-top border-3 border-warning pt-2">
-                                            <h6 class="text-warning mb-1">Capacity:</h6>
-                                            <small>30 Kids</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">ركن الحساب</a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
                             </div>
                         </div>
                     </div>
+                  <!--    3     -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img3/live/1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">ركن الحياة الحسية </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img3/readaa/1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">الرياضة والترفيه </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
+                            </div>
+                        </div>
+                    </div> 
+                                        
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img3/aletekeat/1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">الاتيكيت </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+             <!--  end  3-->
+                            <!--    4     -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img3/book/1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href=""> ملفات نعمل عليها  </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img3/tools/1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href=""> بعض من أدواتنا </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
+                            </div>
+                        </div>
+                    </div> 
+                                        
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img3/rasm/1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href=""> الرسم الحر </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                 <!--  end  4 -->
+                               
+                 <!--  end  5 -->
+                               <!--    6     -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img4/liberary/1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href=""> المكتبة  </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img3/tools/1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href=""> بعض من أدواتنا </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
+                            </div>
+                        </div>
+                    </div> 
+                                        
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img3/rasm/1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href=""> الرسم الحر </a>
+                                <a class="d-block text-center h3 mt-3 mb-4 linkp" href=""> عرض المزيد </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                 <!--  end  6 -->
                 </div>
             </div>
         </div>
-        <!-- Classes End -->
-
-
-        <!-- Appointment Start -->
-        <div class="container-xxl py-5">
+        <!-- Classes End  -->
+         <!--   برامجنا  -->
+        <div class="container gallery-container text-center">
+            <h2 class="mb-5"> برامجنا</h2>
+            <div class="row g-4">
+              <div class="col-6 col-md-4">
+                <img src="img4/program/1.jpg" class="img-fluid gallery-img" alt="صورة 1">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/program/2.jpg" class="img-fluid gallery-img" alt="صورة 2">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/program/3.jpg" class="img-fluid gallery-img" alt="صورة 3">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/program/4.jpg" class="img-fluid gallery-img" alt="صورة 4">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/program/5.jpg" class="img-fluid gallery-img" alt="صورة 5">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/program/6.jpg" class="img-fluid gallery-img" alt="صورة 6">
+              </div>
+              <div class="col-12 col-md-6 offset-md-3">
+                <img src="img4/program/7.jpg" class="img-fluid gallery-img" alt="صورة 7">
+              </div>
+            </div>
+          </div>
+        <!--  معرض الصور -->
+            <!--   برامجنا  -->
+        <div class="container gallery-container text-center">
+            <h2 class="mb-5"> معرض الصور</h2>
+            <div class="row g-4">
+              <div class="col-6 col-md-4">
+                <img src="img4/galary/1.jpg" class="img-fluid gallery-img" alt="صورة 1">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/galary/2.jpg" class="img-fluid gallery-img" alt="صورة 2">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/galary/3.jpg" class="img-fluid gallery-img" alt="صورة 3">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/galary/4.jpg" class="img-fluid gallery-img" alt="صورة 4">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/galary/5.jpg" class="img-fluid gallery-img" alt="صورة 5">
+              </div>
+              <div class="col-6 col-md-4">
+                <img src="img4/galary/6.jpg" class="img-fluid gallery-img" alt="صورة 6">
+              </div>
+              <div class="col-12 col-md-6 offset-md-3">
+                <img src="img4/galary/7.jpg" class="img-fluid gallery-img" alt="صورة 7">
+              </div>
+            </div>
+          </div>
+        <!-- Appointment Start  منهجنا-->
+        <div class="container-xxl py-5" dir="rtl">
             <div class="container">
                 <div class="bg-light rounded">
                     <div class="row g-0">
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="h-100 d-flex flex-column justify-content-center p-5">
-                                <h1 class="mb-4">Make Appointment</h1>
-                                <form>
+                                <h1 class="mb-4">منهجنا</h1>
+                                <!--<form>
                                     <div class="row g-3">
                                         <div class="col-sm-6">
                                             <div class="form-floating">
@@ -618,12 +696,12 @@ z-index: 100;}
                                             <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
                                         </div>
                                     </div>
-                                </form>
+                                </form>-->
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
                             <div class="position-relative h-100">
-                                <img class="position-absolute w-100 h-100 rounded" src="img/appointment.jpg" style="object-fit: cover;">
+                                <img class="position-absolute w-100 h-100 rounded" src="img3/m.jpg" style="object-fit: cover;">
                             </div>
                         </div>
                     </div>
@@ -633,18 +711,18 @@ z-index: 100;}
         <!-- Appointment End -->
 
 
-        <!-- Team Start -->
+        <!-- Team Start فريق-->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Popular Teachers</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
-                        eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <h1 class="mb-3">فريق العمل والإدارة</h1>
+                    <p>Eolore lorem  vero ipsum sit</p>
+                        
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item position-relative">
-                            <img class="img-fluid rounded-circle w-75" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid rounded-circle w-75" src="img4/team/1.jpg" alt="">
                             <div class="team-text">
                                 <h3>Full Name</h3>
                                 <p>Designation</p>
@@ -658,7 +736,7 @@ z-index: 100;}
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item position-relative">
-                            <img class="img-fluid rounded-circle w-75" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid rounded-circle w-75" src="img4/team/2.jpg" alt="">
                             <div class="team-text">
                                 <h3>Full Name</h3>
                                 <p>Designation</p>
@@ -672,7 +750,7 @@ z-index: 100;}
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item position-relative">
-                            <img class="img-fluid rounded-circle w-75" src="img/team-3.jpg" alt="">
+                            <img class="img-fluid rounded-circle w-75" src="img4/team/3.jpg" alt="">
                             <div class="team-text">
                                 <h3>Full Name</h3>
                                 <p>Designation</p>
@@ -690,18 +768,18 @@ z-index: 100;}
         <!-- Team End -->
 
 
-        <!-- Testimonial Start -->
+        <!-- Testimonial Start شركاء -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Our Clients Say!</h1>
+                    <h1 class="mb-3">شركاء النجاح</h1>
                     <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-5">
                         <p class="fs-5">Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p>
                         <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px;">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 90px; height: 90px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img4/team/4.jpg" style="width: 90px; height: 90px;">
                             <div class="ps-3">
                                 <h3 class="mb-1">Client Name</h3>
                                 <span>Profession</span>
@@ -712,7 +790,7 @@ z-index: 100;}
                     <div class="testimonial-item bg-light rounded p-5">
                         <p class="fs-5">Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p>
                         <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px;">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 90px; height: 90px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img4/team/5.jpg" style="width: 90px; height: 90px;">
                             <div class="ps-3">
                                 <h3 class="mb-1">Client Name</h3>
                                 <span>Profession</span>
@@ -723,7 +801,7 @@ z-index: 100;}
                     <div class="testimonial-item bg-light rounded p-5">
                         <p class="fs-5">Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p>
                         <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px;">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 90px; height: 90px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img4/team/6.jpg" style="width: 90px; height: 90px;">
                             <div class="ps-3">
                                 <h3 class="mb-1">Client Name</h3>
                                 <span>Profession</span>
@@ -753,37 +831,8 @@ z-index: 100;}
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h3 class="text-white mb-4">Quick Links</h3>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
-                        <a class="btn btn-link text-white-50" href="">Our Services</a>
-                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
-                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h3 class="text-white mb-4">Photo Gallery</h3>
-                        <div class="row g-2 pt-2">
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-1.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-2.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-3.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-4.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-5.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
+                   
+                   
                     <div class="col-lg-3 col-md-6">
                         <h3 class="text-white mb-4">Newsletter</h3>
                         <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
@@ -798,19 +847,11 @@ z-index: 100;}
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+                            <a class="border-bottom" >  جميع الحقوق محفوظة لدى حضانة كيدز اسكيلز</a> 
 							
 							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                         </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -822,7 +863,7 @@ z-index: 100;}
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
    
         <a class="whats-app" href="tel:010" target="_blank"><i class="bi bi-telephone"></i></a>
-        <a style="visibility: revert-layer;" href="https://wsend.co/" id="fixedWhatsAppIcon" class="wow zoomIn" target="_blank"><i style="font-size: larger;" class="bi bi-whatsapp"></i></a>
+        <a href="https://wsend.co/" id="fixedWhatsAppIcon" class="wow zoomIn" target="_blank"><i style="font-size: larger;" class="bi bi-whatsapp"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->
